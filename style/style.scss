@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 1rem;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+    cursor:auto;
+}
+
+// HEADER
+header{
+    background-image: url('/img/Big_sity.png');
+}
+.header_width{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 80%;
+}
+.header__list{
+    text-align: center;
+    line-height: 50px;
+}
+.header__item{
+    display: inline-block;
+}
+.header__item:hover{
+    cursor:auto;
+}
+.header_a{
+    color: black;
+}
+.header_a:hover{
+    color: rgb(50, 6, 87);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.header__title, .header__title-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color:black;
+}
+.header__title{
+    margin-top:10rem;
+    font-weight: 700;
+}
+.header__title-text{
+    margin-top:5rem;
+    font-size: 1.3rem;
+}
+.btn-1 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    opacity: 0.7;
+    display: inline-block; 
+    background: #671397; 
+    color: rgb(0, 0, 0); 
+    padding: 1rem 1rem; 
+    text-decoration: none; 
+    border-radius: 3px;
+}
+
+.R-p_main-conntent{
+    background-color: rgb(150, 56, 179);
+}
+.R-p_main-conntent_position{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 80%;
+}
+.R-p_main-text-h1{
+    padding-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color:rgb(255, 255, 255);  
+}
+.R-p_main-text-item{
+    margin-top: 2rem;
+}
+.R-p_main-text-item-a{
+    margin-bottom:2rem;
+    text-decoration:none;
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255);
+}
+.R-p_main-text-item-a:hover{
+    text-decoration: underline;
+}
+.R-p_main-text-item-p{
+    font-size: 1.3rem;
+    margin-top:1rem;
+}
+
+
+
+
+
+// FOOTER
+footer{
+    background-color: rgba(66, 66, 66, 1); 
+    
+      
+}
+.footer{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 80%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer_text-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color:rgb(218, 218, 218);
+    padding-top:1rem;
+    margin-bottom:0;
+}
+.form-email{
+    color:rgb(218, 218, 218);
+    margin-right:1rem;
+}
+.form-control{
+    margin-right:1rem;
+}
+.form-inline{
+    margin:2rem 0rem;
+}
+.footer_text-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color:rgb(218, 218, 218);
+    padding-bottom:2rem;
+}
+.footer_text-a{
+    margin-left:0.5rem;  
+}
+.footer_text-a:hover{
+     color:black;
+}
+.email-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color:rgb(0, 0, 0);
+    margin-bottom:2rem;
+}
+.social{
+    padding-top: 11rem;
+    
+}
+img{
+    width: 70px;
+    height: 70px;
+    
+}
