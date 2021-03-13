@@ -13,7 +13,7 @@
     <div class="social ">
         <?php
             while($link = mysqli_fetch_assoc($result)){?>
-                <a href="<?php echo $link['link'] ?>"><img src="<?php echo $link['link_img'] ?>" alt="" ></a>
+                <a href="<?php echo $link['link'] ?>"><img class="footer_img" src="<?php echo $link['link_img'] ?>" alt="" ></a>
             <?php
             }
         ?>
